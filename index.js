@@ -17,7 +17,7 @@ function getCurrentTime() {
 }
 
 function hourlyMessage() {
-    const message = `This is the, CTRS repeater. The current time is ${getCurrentTime()}.`;
+    const message = `Attention. Attention. This is the, CTRS repeater. The current time is ${getCurrentTime()}.`;
     playWords(message);
     console.log('Played Hourly message');
 
