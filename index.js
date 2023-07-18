@@ -23,7 +23,7 @@ function getCurrentTime() {
 }
 
 function hourlyMessage() {
-    const message = `Attention. Attention. This is the CTRS repeater. The current time is ${getCurrentTime()}.`;
+    const message = `Attention Attention This is the CTRS repeater, The current time is ${getCurrentTime()}.`;
     playWords(message);
     console.log('Played Hourly message');
 }
@@ -35,7 +35,7 @@ function interactiveMode() {
             return;
         }
         if (answer.toLowerCase() === 'n'){
-            const message1 = `Attention. Attention. Nathan is gay, The current time is ${getCurrentTime()}.`;
+            const message1 = `Attention Attention Nathan is gay, The current time is ${getCurrentTime()}.`;
             playWords(message1);
             console.log('Played nate message');
         }
