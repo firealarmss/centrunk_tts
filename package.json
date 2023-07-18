@@ -12,6 +12,7 @@
   "dependencies": {
     "node-beep": "^0.0.3",
     "node-cron": "^3.0.2",
+    "readline": "^1.3.0",
     "say": "^0.16.0"
   }
 }
